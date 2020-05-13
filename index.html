@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final exam</title>
-    <link rel="stylesheet" href="style.css">
+    <title>IS 445 Final exam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <div>Hello world</div>
-    <script src="script.js" ></script>
+    <div class="my-container bg-info">
+        <h1 class="text-danger p-1 text-center">Final Exam</h1>
+        <p class="text-light p-1 text-center">Find all even numbers between two numbers</p>
+    </div>
+
+    <div class="input-container">
+        <div class="my-input-group">
+            <label class="text-success" for="input-1">Number 1:</label>
+            <input class="text-success border-success" type="text" id="input-1" name="input-1" />
+        </div>
+        <div class="my-input-group">
+            <label class="text-success" for="input-2">Number 2:</label>
+            <input class="text-success border-success" type="text" id="input-2" name="input-2" />
+        </div>
+    </div>
+    <button type="button" id="submit" class="btn btn-outline-warning">Submit</button>
+
+    <div id="result" class="mt-3">
+        <h2 class="text-success">Calculation Result:</h2>
+        <textarea class="w-100"></textarea>
+    </div>
+    <!-- <p id="error" style="display: none;">Invalid input, please try again</p> -->
+
+    <!-- <div id="result" style="display: none;">
+        <h2 id="prime-length-container">There are <span id="prime-length">0</span> prime numbers.</h2>
+        <p id="prime-number-list"></p>
+    </div> -->
+    <script type="application/javascript" src="./script.js"></script>
 </body>
 </html>
-
