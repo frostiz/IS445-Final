@@ -25,9 +25,12 @@
     </div>
     <button type="button" id="submit" class="btn btn-outline-warning">Submit</button>
 
-    <div id="result" class="mt-3">
+    <div id="result" class="mt-3 mb-3">
         <h2 class="text-success">Calculation Result:</h2>
-        <textarea class="w-100"></textarea>
+        <div class="w-100 border rounded" id="result-container">
+            <p class="text-danger" id="error-1" style="display: none;"></p>
+            <p class="text-danger" id="error-2" style="display: none;"></p>
+        </div>
     </div>
     <!-- <p id="error" style="display: none;">Invalid input, please try again</p> -->
 

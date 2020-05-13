@@ -62,16 +62,10 @@ p {
 #result {
     padding: 0 20px;
 }
-/* 
-#prime-length-container {
-    color: teal;
-    font-weight: bold;
-    font-size: 20px;
-}
 
-#prime-number-list {
-    color: red;
-} */
+#result-container {
+    min-height: 30px;
+}
 
 @media (max-width: 991.98px) {
     .input-container {
